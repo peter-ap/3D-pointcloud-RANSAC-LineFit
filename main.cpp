@@ -13,7 +13,7 @@
 using namespace std;
 using namespace Eigen;
 
-void viewerOneOff(pcl::visualization::PCLVisualizer &viewer, refLine Line)
+void viewerOneOff(pcl::visualization::PCLVisualizer &viewer, line Line)
 {
     viewer.setBackgroundColor(.0, .0, .0);
 
